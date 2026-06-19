@@ -1,0 +1,6 @@
+{
+  "name": "Atmospheric Effect Presenter",
+  "description": "A formal, minimalist presentation viewport demonstrating dynamic snowflake and balloon animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

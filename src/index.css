@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-sans);
+  background-color: #030712; /* Deep Black Slate 950 of Theme 1 */
+  color: #f8fafc; /* Silver Slate 50 representing supreme contrast */
+  overflow: hidden; /* Avoid double scrolls, match professional polished layout exactly */
+}
+
+/* Fallback effects if any transition needs native assistance */
+.btn-action-transition {
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-action-transition:hover {
+  border-color: #6366f1;
+  box-shadow: 0 10px 25px -10px rgba(99, 102, 241, 0.25);
+  transform: translateY(-2px);
+}
+
+.btn-action-transition:active {
+  transform: translateY(0);
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(12px);
+  }
+}
+
+.sway-animation {
+  animation: sway 4s ease-in-out infinite;
+}
