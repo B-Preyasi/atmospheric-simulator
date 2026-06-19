@@ -1,3 +1,4 @@
+<img width="1412" height="799" alt="Screenshot 2026-06-19 at 2 13 21 PM" src="https://github.com/user-attachments/assets/03e6c580-13d3-4ebf-a080-8e3dbaac26ce" />
 # 🌤️ Atmospheric Simulator
 
 An interactive web application that brings atmospheric visual effects to life through engaging animations. Users can trigger beautiful snowfall and balloon-floating effects with a simple click, creating an immersive and visually appealing experience.
